@@ -1,0 +1,35 @@
+// Before starting//
+/*
+> npm init   //initial project and create json file
+> npm i parcel@next -D    or  npm i parcel -D   //  install dev dependencies ( line will be added to jason file)
+> npm audit fix  (optional)
+> npm i sass@1.26.10 -D     or      npm i sass -D   // install SASS
+>  npm start   // start parcel  (line will be added to jason file and dist folder will bre created )
+
+
+///////////////
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controller.js",   / "default": "index.html"
+  "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
+/////////////////////////////////////////////forkify
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+ we make sure that most real old browsers are still being supported by our application
+//e///////////////////////////////////////////////////////////////
+  > npm i core-js regenerator-runtime
+
+
+
+// uninstall npm and install it again
+> npm  un parcel
+> npm  npm i parcel -D 
