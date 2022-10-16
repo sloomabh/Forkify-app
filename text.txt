@@ -33,3 +33,16 @@
 // uninstall npm and install it again
 > npm  un parcel
 > npm  npm i parcel -D 
+
+
+///////////////////// fracty  ///////////////////
+> npm install fracty
+and then change the import in the recipeView.js file to
+
+import fracty from "fracty";
+and this line
+
+ing.quantity ? new Fraction(ing.quantity).toString() : ''
+to
+
+ing.quantity ? fracty(ing.quantity).toString() : '';
