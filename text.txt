@@ -46,3 +46,8 @@ ing.quantity ? new Fraction(ing.quantity).toString() : ''
 to
 
 ing.quantity ? fracty(ing.quantity).toString() : '';
+
+///////////////////
+
+
+"build": "parcel build index.html --dist-dir ./dist"
