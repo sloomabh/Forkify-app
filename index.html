@@ -12,6 +12,28 @@
 
     <link rel="stylesheet" href="src/sass/main.scss" />
     <script type="module" src="src/js/controller.js"></script>
+    <style>
+      .fixed {
+        position: fixed;
+        left: 10 px;
+        bottom: 10%;
+        font-size: 2rem;
+        opacity: 0.7;
+        text-align: center;
+        width: 200px;
+      }
+      .index {
+        background-color: rgba(221, 210, 210, 0.8);
+        border-radius: 5px;
+        padding: 3px 10px;
+        margin-bottom: 15px;
+      }
+      .linki {
+        text-decoration: none;
+        font-size: 25px;
+        color: rgb(24, 22, 196);
+      }
+    </style>
 
     <title>forkify // Search over 1,000,000 recipes</title>
   </head>
@@ -128,8 +150,7 @@
             target="_blank"
             href="https://www.linkedin.com/in/salim-ben-halima-31012b18a/"
             >Salim Ben Halima</a
-          >. Use for learning or your portfolio. Don't use to teach. Don't claim
-          as your own.
+          >
         </p>
       </div>
 
@@ -327,6 +348,21 @@
           <span>Upload</span>
         </button>
       </form>
+    </div>
+    <div class="fixed">
+      <div class="index">
+        <a class="linki" target="_blank" href="/instractions/how-to-use.html"
+          >How To use this app</a
+        >
+      </div>
+      <div class="index">
+        <a
+          class="linki"
+          target="_blank"
+          href="https://github.com/sloomabh/Forkify-app"
+          >Project repo</a
+        >
+      </div>
     </div>
   </body>
 </html>
