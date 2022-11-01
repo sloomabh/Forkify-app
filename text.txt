@@ -49,5 +49,13 @@ ing.quantity ? fracty(ing.quantity).toString() : '';
 
 ///////////////////
 
+we change this line before building
+delete dist /cache files:
 
 "build": "parcel build index.html --dist-dir ./dist"
+ > npm run build
+ 
+ /////////////////////////////////////////////////////
+ install node / live server 
+
+ npm install live-server -g
